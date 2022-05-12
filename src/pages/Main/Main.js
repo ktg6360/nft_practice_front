@@ -1,18 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import axios from "axios";
+import React from 'react';
+import MainPage from '../../components/Main/MainPage';
 
 export default function Main() {
-  const [version, setVersion] = useState([]);
-
-  useEffect(() => {
-    axios.get(`${process.env.REACT_APP_BACKEND_HOST}/version`)
-      .then(res => setVersion(res.data.version))
-      .catch(error => {
-        console.log(error);
-      });
-  }, []);
-
   return (
-    <div>{version}</div>
+    <>
+      <MainPage />
+    </>
   );
 }

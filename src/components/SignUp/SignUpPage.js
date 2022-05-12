@@ -1,0 +1,62 @@
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
+import { useDispatch } from 'react-redux';
+import allActions from '../../actions';
+import './SignUpPage.css';
+
+export default function SignUpPage() {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+
+  const [input, setInput] = useState({
+    id: "",
+    password: "",
+    confirmPassword: "",
+  });
+  
+  const onChangeHandler = (e) => {
+    setInput((prevState) => {
+      return { ...prevState, [e.target.name]: e.target.value };
+    });
+  };
+
+  const onClickSignUp = () => {
+    if (input.id === '') {
+      alert('아이디를 입력해주세요.');
+      return;
+    }
+
+    if (input.password === '') {
+      alert('비밀번호를 입력해주세요.');
+      return;
+    }
+
+    if (input.password !== input.confirmPassword) {
+      alert('비밀번호가 일치하지 않습니다.');
+      return;
+    }
+
+    axios.post(`${process.env.REACT_APP_BACKEND_HOST}/signUp`, input)
+      .then(res => {
+        alert(res.data.msg);
+        navigate('/wallet');
+      })
+      .catch(err => console.log(err));
+
+    dispatch(allActions.userActions.loginUser(input.id));
+  };
+
+  return (
+    <div className='signup-page'>
+      <div className='form'>
+        <form className='signup-form'>
+          <input className='id' name='id' type='text' placeholder='아이디' onChange={onChangeHandler} />
+          <input className='name' name='password' type='password' placeholder='비밀번호' onChange={onChangeHandler} />
+          <input className='address' name='confirmPassword' type='password' placeholder='비밀번호 확인' onChange={onChangeHandler} />
+          <p className='signup-button' onClick={onClickSignUp}>Sign Up</p>
+        </form>
+      </div>
+    </div>
+  );
+}
