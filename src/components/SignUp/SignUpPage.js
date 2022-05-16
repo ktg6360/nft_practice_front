@@ -14,18 +14,32 @@ export default function SignUpPage() {
     password: "",
     confirmPassword: "",
   });
-  
+
   const onChangeHandler = (e) => {
     setInput((prevState) => {
       return { ...prevState, [e.target.name]: e.target.value };
     });
   };
 
-  const onClickSignUp = () => {
+  const onClickSignUp = async () => {
     if (input.id === '') {
       alert('아이디를 입력해주세요.');
       return;
     }
+
+    let returnByIdDuplication = false;
+
+    await axios.get(`${process.env.REACT_APP_BACKEND_HOST}/users`)
+      .then(res => {
+        const users = res.data;
+        if (users.filter(user => user.id === input.id).length > 0) {
+          alert('이미 가입되어 있는 아이디입니다.');
+          returnByIdDuplication = true;
+        }
+      })
+      .catch(err => console.log(err));
+
+    if (returnByIdDuplication) return;
 
     if (input.password === '') {
       alert('비밀번호를 입력해주세요.');
