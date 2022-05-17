@@ -1,18 +1,24 @@
 .main-page {
-  display: flex;
-  justify-content: center;
+  width: 360px;
+  padding: 15% 0 0 0;
+  margin: auto;
 }
 
 .main-page-btn-wrapper {
-  margin-top: 300px;
+  position: relative;
+  background: #FFFFFF;
+  max-width: 360px;
+  padding: 45px;
   text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 .main-page-btn {
-  margin-bottom: 30px;
+  width: 100%;
+  margin: 20px 0;
   padding: 15px;
+  font-size: 14px;
+  background: #f7b2d5;
   color: white;
-  background-color: #E1003D;
-  border-radius: 7px;
   cursor: pointer;
 }

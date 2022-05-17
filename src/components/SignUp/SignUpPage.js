@@ -37,7 +37,7 @@ export default function SignUpPage() {
           returnByIdDuplication = true;
         }
       })
-      .catch(err => console.log(err));
+      .catch(err => console.error(err));
 
     if (returnByIdDuplication) return;
 
@@ -56,9 +56,13 @@ export default function SignUpPage() {
         alert(res.data.msg);
         navigate('/wallet');
       })
-      .catch(err => console.log(err));
+      .catch(err => console.error(err));
 
     dispatch(allActions.userActions.loginUser(input.id));
+  };
+
+  const onClickLinkToLogIn = () => {
+    navigate('/login');
   };
 
   return (
@@ -70,6 +74,10 @@ export default function SignUpPage() {
           <input className='address' name='confirmPassword' type='password' placeholder='비밀번호 확인' onChange={onChangeHandler} />
           <p className='signup-button' onClick={onClickSignUp}>Sign Up</p>
         </form>
+        <div className='check-register'>
+          <p>이미 가입하셨나요?</p>
+          <p className='link-to-login' onClick={onClickLinkToLogIn}>로그인하러 가기</p>
+        </div>
       </div>
     </div>
   );
