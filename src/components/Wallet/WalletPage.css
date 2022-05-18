@@ -1,7 +1,9 @@
 .wallet-page {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 500px;
-  padding: 15% 0 0 0;
-  margin: auto;
 }
 
 .wallet-container {
@@ -36,12 +38,37 @@
   text-align: start;
 }
 
-.check-balance {
+.wallet-options {
+  margin-top: 30px;
+}
+
+.wallet-options p {
+  text-align: center;
   background: #f7b2d5;
-  width: 40%;
-  margin-bottom: 0;
   padding: 10px 15px;
   color: #FFFFFF;
   font-size: 14px;
   cursor: pointer;
+}
+
+.klay-form input {
+  background: #f2f2f2;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  margin: 12px 0;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.send-button {
+  background: #f7b2d5;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
 }
