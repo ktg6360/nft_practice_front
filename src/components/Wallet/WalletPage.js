@@ -9,6 +9,7 @@ export default function WalletPage() {
   const userId = currentUser.user;
   const [isWalletCreated, setIsWalletCreated] = useState(false);
   const [walletInfo, setWalletInfo] = useState({});
+  const [mintInfo, setMintInfo] = useState([]);
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [input, setInput] = useState({
     toAddress: "",
@@ -22,10 +23,33 @@ export default function WalletPage() {
   };
 
   useEffect(() => {
-    axios.get(`${process.env.REACT_APP_BACKEND_HOST}/users`)
+    const config = {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      params: {
+        "userId": userId
+      }
+    };
+
+    // const fetchData = async () => {
+    //   const userData = await axios.get(`${process.env.REACT_APP_BACKEND_HOST}/user`, config);
+    //   const tokenData = await axios.get(`${process.env.REACT_APP_BACKEND_HOST}/getTokenList`, config);
+    //   console.log(111, userData);
+    //   console.log(222, tokenData);
+
+    //   setInfo({
+    //     walletInfo: userData.data[0].wallet,
+    //     mintInfo: tokenData.data
+    //   })
+    // }
+
+    // fetchData();
+
+    axios.get(`${process.env.REACT_APP_BACKEND_HOST}/user`, config)
       .then(res => {
-        const users = res.data;
-        const loginUser = users.filter(user => user.id === userId);
+        const loginUser = res.data;
         if (loginUser.length > 0) {
           if (loginUser[0].wallet) {
             setIsWalletCreated(true);
@@ -34,6 +58,13 @@ export default function WalletPage() {
         }
       })
       .catch(err => console.error(err));
+
+    axios.get(`${process.env.REACT_APP_BACKEND_HOST}/getTokenList`, config)
+    .then(res => {
+      setMintInfo(res.data);
+    })
+    .catch(err => console.error(err));
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -74,12 +105,12 @@ export default function WalletPage() {
       toAddress: input.toAddress,
       amount: input.amount
     })
-    .then(res => {
-      alert(res.data.msg);
-      setModalIsOpen(false);
-    })
-    .catch(err => console.error(err));
-  }
+      .then(res => {
+        alert(res.data.msg);
+        setModalIsOpen(false);
+      })
+      .catch(err => console.error(err));
+  };
 
   return (
     <div className='wallet-page'>
@@ -100,7 +131,10 @@ export default function WalletPage() {
             <div className='wallet-options'>
               <p onClick={onClickCheckBalance}>내 KLAY 확인하기</p>
               <p onClick={onClickModalOpen}>KLAY 전송하기</p>
-              <p>NFT 발행하기</p>
+              {mintInfo.length === 0
+                ? <p>나만의 Bzznbyd Bird 민팅</p>
+                : <p>나만의 Bzznbyd Bird 민팅</p>
+              }
             </div>
           </div>
         </div>
