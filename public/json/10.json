@@ -1,0 +1,31 @@
+{
+  "name": "Bzznbyd Bird #10",
+  "description": "This is NFT collection made by Bzznbyd",
+  "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/10.png",
+  "dna": "ea0b0ff32065aca448a89bf9261c5b46eba41256",
+  "edition": 10,
+  "date": 1652936186933,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "blue"
+    },
+    {
+      "trait_type": "Body",
+      "value": "light_yellow"
+    },
+    {
+      "trait_type": "Face",
+      "value": "normal_face"
+    },
+    {
+      "trait_type": "Legs",
+      "value": "normal_legs"
+    },
+    {
+      "trait_type": "Wings",
+      "value": "wing_above"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Bzznbyd Bird #1",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/1.png",
+    "dna": "7d0b3aab3046d08078799e3a3f04b4fa20ad5be0",
+    "edition": 1,
+    "date": 1652936186290,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "light_yellow"
+      },
+      {
+        "trait_type": "Face",
+        "value": "normal_face"
+      },
+      {
+        "trait_type": "Legs",
+        "value": "normal_legs"
+      },
+      {
+        "trait_type": "Wings",
+        "value": "wing_below"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Bzznbyd Bird #2",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/2.png",
+    "dna": "c7d472b37671c6222845664677c7a5d139028e43",
+    "edition": 2,
+    "date": 1652936186369,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "light_pink"
+      },
+      {
+        "trait_type": "Face",
+        "value": "normal_face"
+      },
+      {
+        "trait_type": "Legs",
+        "value": "normal_legs"
+      },
+      {
+        "trait_type": "Wings",
+        "value": "wing_below"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Bzznbyd Bird #3",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/3.png",
+    "dna": "7336ea28f0ecb96caba714c3d740ba78f229f2fb",
+    "edition": 3,
+    "date": 1652936186440,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "light_blue"
+      },
+      {
+        "trait_type": "Face",
+        "value": "normal_face"
+      },
+      {
+        "trait_type": "Legs",
+        "value": "normal_legs"
+      },
+      {
+        "trait_type": "Wings",
+        "value": "wing_below"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Bzznbyd Bird #4",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/4.png",
+    "dna": "8f2d26d4b832d7419f0248df3f52afdf1a091be5",
+    "edition": 4,
+    "date": 1652936186518,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "light_pink"
+      },
+      {
+        "trait_type": "Face",
+        "value": "normal_face"
+      },
+      {
+        "trait_type": "Legs",
+        "value": "normal_legs"
+      },
+      {
+        "trait_type": "Wings",
+        "value": "wing_below"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Bzznbyd Bird #5",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/5.png",
+    "dna": "835480d5efca0d4050cb591ba66f5e10fc5f992e",
+    "edition": 5,
+    "date": 1652936186586,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "light_blue"
+      },
+      {
+        "trait_type": "Face",
+        "value": "normal_face"
+      },
+      {
+        "trait_type": "Legs",
+        "value": "normal_legs"
+      },
+      {
+        "trait_type": "Wings",
+        "value": "wing_above"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Bzznbyd Bird #6",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/6.png",
+    "dna": "6f57492066d21b680ef6848ed34046610724c8bc",
+    "edition": 6,
+    "date": 1652936186660,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "light_blue"
+      },
+      {
+        "trait_type": "Face",
+        "value": "normal_face"
+      },
+      {
+        "trait_type": "Legs",
+        "value": "normal_legs"
+      },
+      {
+        "trait_type": "Wings",
+        "value": "wing_above"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Bzznbyd Bird #7",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/7.png",
+    "dna": "0c6c78a7bfc92fa46e5278a8651194dc4f7d47f2",
+    "edition": 7,
+    "date": 1652936186728,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "light_yellow"
+      },
+      {
+        "trait_type": "Face",
+        "value": "normal_face"
+      },
+      {
+        "trait_type": "Legs",
+        "value": "normal_legs"
+      },
+      {
+        "trait_type": "Wings",
+        "value": "wing_above"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Bzznbyd Bird #8",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/8.png",
+    "dna": "d6b740f28270067fd87ea3d62cd8548a2e487361",
+    "edition": 8,
+    "date": 1652936186798,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "light_yellow"
+      },
+      {
+        "trait_type": "Face",
+        "value": "normal_face"
+      },
+      {
+        "trait_type": "Legs",
+        "value": "normal_legs"
+      },
+      {
+        "trait_type": "Wings",
+        "value": "wing_above"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Bzznbyd Bird #9",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/9.png",
+    "dna": "22c86f5a282618cd1dbd6f2484307c1930a37a8d",
+    "edition": 9,
+    "date": 1652936186865,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "light_blue"
+      },
+      {
+        "trait_type": "Face",
+        "value": "normal_face"
+      },
+      {
+        "trait_type": "Legs",
+        "value": "normal_legs"
+      },
+      {
+        "trait_type": "Wings",
+        "value": "wing_below"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Bzznbyd Bird #10",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/10.png",
+    "dna": "ea0b0ff32065aca448a89bf9261c5b46eba41256",
+    "edition": 10,
+    "date": 1652936186933,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "light_yellow"
+      },
+      {
+        "trait_type": "Face",
+        "value": "normal_face"
+      },
+      {
+        "trait_type": "Legs",
+        "value": "normal_legs"
+      },
+      {
+        "trait_type": "Wings",
+        "value": "wing_above"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  }
+]

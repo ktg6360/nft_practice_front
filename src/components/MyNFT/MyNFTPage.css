@@ -1,11 +1,11 @@
-.mint-page {
+.nft-page {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.mint-container {
+.nft-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,17 +16,11 @@
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-.mint-image {
-  width: 150px;
-  height: 150px;
-  margin-bottom: 15px;
-}
-
-.mint-container p {
+.nft-container p {
   margin: 15px 0;
 }
 
-.mint-info {
+.nft-info {
   margin-bottom: 20px;
   padding: 10px;
   border: 2px solid #f7b2d5;
@@ -34,11 +28,11 @@
   text-align: start;
 }
 
-.mint-options {
+.nft-options {
   margin-top: 30px;
 }
 
-.mint-options p {
+.nft-options p {
   text-align: center;
   background: #f7b2d5;
   padding: 10px 15px;

@@ -1,0 +1,31 @@
+{
+  "name": "Bzznbyd Bird #2",
+  "description": "This is NFT collection made by Bzznbyd",
+  "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/2.png",
+  "dna": "c7d472b37671c6222845664677c7a5d139028e43",
+  "edition": 2,
+  "date": 1652936186369,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "green"
+    },
+    {
+      "trait_type": "Body",
+      "value": "light_pink"
+    },
+    {
+      "trait_type": "Face",
+      "value": "normal_face"
+    },
+    {
+      "trait_type": "Legs",
+      "value": "normal_legs"
+    },
+    {
+      "trait_type": "Wings",
+      "value": "wing_below"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

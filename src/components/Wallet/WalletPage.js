@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import './WalletPage.css';
 import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Modal from 'react-modal';
 
 export default function WalletPage() {
+  const navigate = useNavigate();
   const currentUser = useSelector(state => state.currentUser);
   const userId = currentUser.user;
   const [isWalletCreated, setIsWalletCreated] = useState(false);
   const [walletInfo, setWalletInfo] = useState({});
-  const [mintInfo, setMintInfo] = useState([]);
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [mintInfo, setMintInfo] = useState([]);
   const [input, setInput] = useState({
     toAddress: "",
     amount: "",
@@ -33,20 +35,6 @@ export default function WalletPage() {
       }
     };
 
-    // const fetchData = async () => {
-    //   const userData = await axios.get(`${process.env.REACT_APP_BACKEND_HOST}/user`, config);
-    //   const tokenData = await axios.get(`${process.env.REACT_APP_BACKEND_HOST}/getTokenList`, config);
-    //   console.log(111, userData);
-    //   console.log(222, tokenData);
-
-    //   setInfo({
-    //     walletInfo: userData.data[0].wallet,
-    //     mintInfo: tokenData.data
-    //   })
-    // }
-
-    // fetchData();
-
     axios.get(`${process.env.REACT_APP_BACKEND_HOST}/user`, config)
       .then(res => {
         const loginUser = res.data;
@@ -60,10 +48,10 @@ export default function WalletPage() {
       .catch(err => console.error(err));
 
     axios.get(`${process.env.REACT_APP_BACKEND_HOST}/getTokenList`, config)
-    .then(res => {
-      setMintInfo(res.data);
-    })
-    .catch(err => console.error(err));
+      .then(res => {
+        setMintInfo(res.data);
+      })
+      .catch(err => console.error(err));
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -112,18 +100,26 @@ export default function WalletPage() {
       .catch(err => console.error(err));
   };
 
+  const onClickNavToMintPage = () => {
+    if (mintInfo.length > 0) {
+      navigate('/mynft');
+    } else {
+      navigate('/mint');
+    }
+  };
+
   return (
     <div className='wallet-page'>
       {!isWalletCreated &&
         <div className='wallet-container'>
-          <p>{userId}님 환영합니다!!!</p>
+          <p>{userId} 님 환영합니다!!!</p>
           <p>지갑을 생성하시겠습니까?</p>
           <p className='create-button' onClick={onClickCreateWallet}>지갑 생성하기</p>
         </div>
       }
       {isWalletCreated &&
         <div className='wallet-container'>
-          <p>{userId}님의 지갑 정보는 아래와 같습니다.</p>
+          <p>{userId} 님의 지갑 정보는 아래와 같습니다.</p>
           <div className='wallet-info'>
             <p>주소: {walletInfo.address}</p>
             <p>네트워크: {walletInfo.chainId === 1001 ? 'Baobab' : 'Main'}</p>
@@ -131,10 +127,7 @@ export default function WalletPage() {
             <div className='wallet-options'>
               <p onClick={onClickCheckBalance}>내 KLAY 확인하기</p>
               <p onClick={onClickModalOpen}>KLAY 전송하기</p>
-              {mintInfo.length === 0
-                ? <p>나만의 Bzznbyd Bird 민팅</p>
-                : <p>나만의 Bzznbyd Bird 민팅</p>
-              }
+              <p onClick={onClickNavToMintPage}>나만의 Bzznbyd Bird NFT</p>
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import SignUp from './pages/SignUp/SignUp';
 import LogIn from './pages/LogIn/LogIn';
 import Wallet from './pages/Wallet/Wallet';
 import Mint from './pages/Mint/Mint';
+import MyNFT from './pages/MyNFT/MyNFT';
 
 export default function Router() {
   return (
@@ -15,6 +16,7 @@ export default function Router() {
         <Route path='/login' element={<LogIn />} />
         <Route path='/wallet' element={<Wallet />} />
         <Route path='/mint' element={<Mint />} />
+        <Route path='/mynft' element={<MyNFT />} />
       </Routes>
     </BrowserRouter>
   );
