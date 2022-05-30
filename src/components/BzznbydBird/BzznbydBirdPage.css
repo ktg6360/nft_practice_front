@@ -1,0 +1,81 @@
+.bb-page {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bb-container {
+  background: #FFFFFF;
+  width: 725px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.bb-page-title p {
+  font-size: 20px;
+}
+
+.link-to-opensea {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.link-to-opensea p {
+  padding: 5px 25px;
+  margin-right: 10px;
+  color: white;
+  background-color: #f7b2d5;
+}
+
+.bb-image-grid-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bb-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.bb-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.bb-image-name {
+  font-size: 13px;
+}
+
+.selected-image {
+  width: 500px;
+  height: 500px;
+  margin-bottom: 15px;
+}
+
+.modal {
+  text-align: center;
+}
+
+.modal-options {
+  padding: 0px 100px;
+}
+
+.modal-options p {
+  background: #f7b2d5;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.wallet-address {
+  margin-top: 20px;
+}

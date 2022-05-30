@@ -5,7 +5,9 @@ import SignUp from './pages/SignUp/SignUp';
 import LogIn from './pages/LogIn/LogIn';
 import Wallet from './pages/Wallet/Wallet';
 import Mint from './pages/Mint/Mint';
+import BzznbydBrid from './pages/BzznbydBird/BzznbydBrid';
 import MyNFT from './pages/MyNFT/MyNFT';
+import Transaction from './pages/Transaction/Transaction';
 
 export default function Router() {
   return (
@@ -15,8 +17,10 @@ export default function Router() {
         <Route path='/signup' element={<SignUp />} />
         <Route path='/login' element={<LogIn />} />
         <Route path='/wallet' element={<Wallet />} />
+        <Route path='/bzznbydbird' element={<BzznbydBrid />} />
         <Route path='/mint' element={<Mint />} />
         <Route path='/mynft' element={<MyNFT />} />
+        <Route path='/transaction' element={<Transaction />} />
       </Routes>
     </BrowserRouter>
   );

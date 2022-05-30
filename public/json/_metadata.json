@@ -1,310 +1,1050 @@
 [
   {
-    "name": "Bzznbyd Bird #1",
+    "name": "버즈앤비 버드 #1",
     "description": "This is NFT collection made by Bzznbyd",
-    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/1.png",
-    "dna": "7d0b3aab3046d08078799e3a3f04b4fa20ad5be0",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/1.png",
+    "dna": "1082995d36f025658c40c8852819e66c19ffa47e",
     "edition": 1,
-    "date": 1652936186290,
+    "date": 1653621053634,
     "attributes": [
       {
         "trait_type": "Background",
-        "value": "blue"
+        "value": "Green"
       },
       {
         "trait_type": "Body",
-        "value": "light_yellow"
+        "value": "LightBlue"
       },
       {
         "trait_type": "Face",
-        "value": "normal_face"
+        "value": "Face"
       },
       {
-        "trait_type": "Legs",
-        "value": "normal_legs"
+        "trait_type": "Leg",
+        "value": "Legs"
       },
       {
-        "trait_type": "Wings",
-        "value": "wing_below"
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "name": "Bzznbyd Bird #2",
+    "name": "버즈앤비 버드 #2",
     "description": "This is NFT collection made by Bzznbyd",
-    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/2.png",
-    "dna": "c7d472b37671c6222845664677c7a5d139028e43",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/2.png",
+    "dna": "50cf314c5f86e2b0539dd203701c488da57d9e00",
     "edition": 2,
-    "date": 1652936186369,
+    "date": 1653621053723,
     "attributes": [
       {
         "trait_type": "Background",
-        "value": "green"
+        "value": "Blue"
       },
       {
         "trait_type": "Body",
-        "value": "light_pink"
+        "value": "LigthPink"
       },
       {
         "trait_type": "Face",
-        "value": "normal_face"
+        "value": "Face"
       },
       {
-        "trait_type": "Legs",
-        "value": "normal_legs"
+        "trait_type": "Leg",
+        "value": "Legs"
       },
       {
-        "trait_type": "Wings",
-        "value": "wing_below"
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "name": "Bzznbyd Bird #3",
+    "name": "버즈앤비 버드 #3",
     "description": "This is NFT collection made by Bzznbyd",
-    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/3.png",
-    "dna": "7336ea28f0ecb96caba714c3d740ba78f229f2fb",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/3.png",
+    "dna": "c48d6360af219720f4f95c9cdd17a7e68543315c",
     "edition": 3,
-    "date": 1652936186440,
+    "date": 1653621053810,
     "attributes": [
       {
         "trait_type": "Background",
-        "value": "green"
+        "value": "Orange"
       },
       {
         "trait_type": "Body",
-        "value": "light_blue"
+        "value": "LigthPink"
       },
       {
         "trait_type": "Face",
-        "value": "normal_face"
+        "value": "Face"
       },
       {
-        "trait_type": "Legs",
-        "value": "normal_legs"
+        "trait_type": "Leg",
+        "value": "Legs"
       },
       {
-        "trait_type": "Wings",
-        "value": "wing_below"
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Angry"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "name": "Bzznbyd Bird #4",
+    "name": "버즈앤비 버드 #4",
     "description": "This is NFT collection made by Bzznbyd",
-    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/4.png",
-    "dna": "8f2d26d4b832d7419f0248df3f52afdf1a091be5",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/4.png",
+    "dna": "1caeaddd8230bb12b0c4295343a65b1f5e212625",
     "edition": 4,
-    "date": 1652936186518,
+    "date": 1653621053887,
     "attributes": [
       {
         "trait_type": "Background",
-        "value": "blue"
+        "value": "Red"
       },
       {
         "trait_type": "Body",
-        "value": "light_pink"
+        "value": "LightYellow"
       },
       {
         "trait_type": "Face",
-        "value": "normal_face"
+        "value": "Face"
       },
       {
-        "trait_type": "Legs",
-        "value": "normal_legs"
+        "trait_type": "Leg",
+        "value": "Legs"
       },
       {
-        "trait_type": "Wings",
-        "value": "wing_below"
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Angry"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "name": "Bzznbyd Bird #5",
+    "name": "버즈앤비 버드 #5",
     "description": "This is NFT collection made by Bzznbyd",
-    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/5.png",
-    "dna": "835480d5efca0d4050cb591ba66f5e10fc5f992e",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/5.png",
+    "dna": "730ef438cf0790ca6da5aca1a4d56fb7dd9a3f80",
     "edition": 5,
-    "date": 1652936186586,
+    "date": 1653621053968,
     "attributes": [
       {
         "trait_type": "Background",
-        "value": "orange"
+        "value": "Green"
       },
       {
         "trait_type": "Body",
-        "value": "light_blue"
+        "value": "LightYellow"
       },
       {
         "trait_type": "Face",
-        "value": "normal_face"
+        "value": "Face"
       },
       {
-        "trait_type": "Legs",
-        "value": "normal_legs"
+        "trait_type": "Leg",
+        "value": "Legs"
       },
       {
-        "trait_type": "Wings",
-        "value": "wing_above"
+        "trait_type": "Wing",
+        "value": "WingBelow"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "name": "Bzznbyd Bird #6",
+    "name": "버즈앤비 버드 #6",
     "description": "This is NFT collection made by Bzznbyd",
-    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/6.png",
-    "dna": "6f57492066d21b680ef6848ed34046610724c8bc",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/6.png",
+    "dna": "8f152b5689a57a6a0da3f9a0fb1bfd390c3738ff",
     "edition": 6,
-    "date": 1652936186660,
+    "date": 1653621054052,
     "attributes": [
       {
         "trait_type": "Background",
-        "value": "green"
+        "value": "Red"
       },
       {
         "trait_type": "Body",
-        "value": "light_blue"
+        "value": "LightYellow"
       },
       {
         "trait_type": "Face",
-        "value": "normal_face"
+        "value": "Face"
       },
       {
-        "trait_type": "Legs",
-        "value": "normal_legs"
+        "trait_type": "Leg",
+        "value": "Legs"
       },
       {
-        "trait_type": "Wings",
-        "value": "wing_above"
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "name": "Bzznbyd Bird #7",
+    "name": "버즈앤비 버드 #7",
     "description": "This is NFT collection made by Bzznbyd",
-    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/7.png",
-    "dna": "0c6c78a7bfc92fa46e5278a8651194dc4f7d47f2",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/7.png",
+    "dna": "cf36c0e3d0f60462a87d25c1f2185c627483f8f4",
     "edition": 7,
-    "date": 1652936186728,
+    "date": 1653621054128,
     "attributes": [
       {
         "trait_type": "Background",
-        "value": "green"
+        "value": "Green"
       },
       {
         "trait_type": "Body",
-        "value": "light_yellow"
+        "value": "LightBlue"
       },
       {
         "trait_type": "Face",
-        "value": "normal_face"
+        "value": "Face"
       },
       {
-        "trait_type": "Legs",
-        "value": "normal_legs"
+        "trait_type": "Leg",
+        "value": "Legs"
       },
       {
-        "trait_type": "Wings",
-        "value": "wing_above"
+        "trait_type": "Wing",
+        "value": "WingBelow"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Angry"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "name": "Bzznbyd Bird #8",
+    "name": "버즈앤비 버드 #8",
     "description": "This is NFT collection made by Bzznbyd",
-    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/8.png",
-    "dna": "d6b740f28270067fd87ea3d62cd8548a2e487361",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/8.png",
+    "dna": "9f0a41884273d927604b95a1b89d0a29c34be068",
     "edition": 8,
-    "date": 1652936186798,
+    "date": 1653621054209,
     "attributes": [
       {
         "trait_type": "Background",
-        "value": "orange"
+        "value": "Green"
       },
       {
         "trait_type": "Body",
-        "value": "light_yellow"
+        "value": "LightYellow"
       },
       {
         "trait_type": "Face",
-        "value": "normal_face"
+        "value": "Face"
       },
       {
-        "trait_type": "Legs",
-        "value": "normal_legs"
+        "trait_type": "Leg",
+        "value": "Legs"
       },
       {
-        "trait_type": "Wings",
-        "value": "wing_above"
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "name": "Bzznbyd Bird #9",
+    "name": "버즈앤비 버드 #9",
     "description": "This is NFT collection made by Bzznbyd",
-    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/9.png",
-    "dna": "22c86f5a282618cd1dbd6f2484307c1930a37a8d",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/9.png",
+    "dna": "9a0157a55da46b2fc73beaa61cefd6936048323d",
     "edition": 9,
-    "date": 1652936186865,
+    "date": 1653621054287,
     "attributes": [
       {
         "trait_type": "Background",
-        "value": "orange"
+        "value": "Green"
       },
       {
         "trait_type": "Body",
-        "value": "light_blue"
+        "value": "LigthPink"
       },
       {
         "trait_type": "Face",
-        "value": "normal_face"
+        "value": "Face"
       },
       {
-        "trait_type": "Legs",
-        "value": "normal_legs"
+        "trait_type": "Leg",
+        "value": "Legs"
       },
       {
-        "trait_type": "Wings",
-        "value": "wing_below"
+        "trait_type": "Wing",
+        "value": "WingBelow"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Angry"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "name": "Bzznbyd Bird #10",
+    "name": "버즈앤비 버드 #10",
     "description": "This is NFT collection made by Bzznbyd",
-    "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/10.png",
-    "dna": "ea0b0ff32065aca448a89bf9261c5b46eba41256",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/10.png",
+    "dna": "0cc6dc12acc604d629890b892ee2ad2db6ddacfc",
     "edition": 10,
-    "date": 1652936186933,
+    "date": 1653621054365,
     "attributes": [
       {
         "trait_type": "Background",
-        "value": "blue"
+        "value": "Green"
       },
       {
         "trait_type": "Body",
-        "value": "light_yellow"
+        "value": "LightBlue"
       },
       {
         "trait_type": "Face",
-        "value": "normal_face"
+        "value": "Face"
       },
       {
-        "trait_type": "Legs",
-        "value": "normal_legs"
+        "trait_type": "Leg",
+        "value": "Legs"
       },
       {
-        "trait_type": "Wings",
-        "value": "wing_above"
+        "trait_type": "Wing",
+        "value": "WingBelow"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #11",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/11.png",
+    "dna": "1629bcfa902d011bae0052cb2d30b08e1fc88a5a",
+    "edition": 11,
+    "date": 1653621054444,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Red"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LigthPink"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #12",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/12.png",
+    "dna": "8152a8b68c450e35a59df50990f541bf06d45a59",
+    "edition": 12,
+    "date": 1653621054521,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LigthPink"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingBelow"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Angry"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #13",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/13.png",
+    "dna": "cd03390e91243c9aa4546455831c0ef5b236ac81",
+    "edition": 13,
+    "date": 1653621054597,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Red"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LightBlue"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Angry"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #14",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/14.png",
+    "dna": "66f5c97fa2e26e562bb915924fd5dc000f9fddad",
+    "edition": 14,
+    "date": 1653621054675,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Purple"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LigthPink"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingBelow"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #15",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/15.png",
+    "dna": "3ae3e47d63e3f85b910d71ebe7d9fc92840a8594",
+    "edition": 15,
+    "date": 1653621054760,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Red"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LigthPink"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingBelow"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #16",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/16.png",
+    "dna": "567e58ae111687524492099b88a61fc36f52c171",
+    "edition": 16,
+    "date": 1653621054835,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Purple"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LigthPink"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Angry"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #17",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/17.png",
+    "dna": "6b905fad5b4b96bb9522e59deb2db6396bc89084",
+    "edition": 17,
+    "date": 1653621054909,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LightBlue"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingBelow"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #18",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/18.png",
+    "dna": "a3751891f113122a0b55a5cf63c783ac7aab05a3",
+    "edition": 18,
+    "date": 1653621054985,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LightYellow"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Angry"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #19",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/19.png",
+    "dna": "e1516e113a073c2418e088cf9c47b2861fe05b7a",
+    "edition": 19,
+    "date": 1653621055060,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LightYellow"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #20",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/20.png",
+    "dna": "5d820d50825541b9a95c1b3346c7588d514302b8",
+    "edition": 20,
+    "date": 1653621055135,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Purple"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LightBlue"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #21",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/21.png",
+    "dna": "cad6d9d4afecf9758fa807c8e8cdf45c7e616fc3",
+    "edition": 21,
+    "date": 1653621055212,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LightBlue"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #22",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/22.png",
+    "dna": "67997400e762c80115f3625d940e57f6e0baac08",
+    "edition": 22,
+    "date": 1653621055289,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Purple"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LightYellow"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Angry"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #23",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/23.png",
+    "dna": "12cffc4053693a679c6d9e1575f7c56d316bf33f",
+    "edition": 23,
+    "date": 1653621055364,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LightBlue"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Angry"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #24",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/24.png",
+    "dna": "71463fb8d35e3028ccbe687742c6a8cdc005cf69",
+    "edition": 24,
+    "date": 1653621055444,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LigthPink"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingBelow"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #25",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/25.png",
+    "dna": "739a884e1f9a8c9a998a5391459ee11d20976621",
+    "edition": 25,
+    "date": 1653621055519,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Purple"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LightBlue"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Angry"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #26",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/26.png",
+    "dna": "c319be0c17ebff2c2726656fdb59a2362055da6f",
+    "edition": 26,
+    "date": 1653621055597,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Purple"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LightBlue"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingBelow"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Angry"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #27",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/27.png",
+    "dna": "d8115607c5bdd6345aa788ca12688e3eed06bf6d",
+    "edition": 27,
+    "date": 1653621055672,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LigthPink"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #28",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/28.png",
+    "dna": "542f9d6807117b17c61cf7150a32def31460fee9",
+    "edition": 28,
+    "date": 1653621055750,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LightYellow"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Angry"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #29",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/29.png",
+    "dna": "5cc4a0aac35bae45e9a2048d7bcac20f12cb43fe",
+    "edition": 29,
+    "date": 1653621055824,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Red"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LightYellow"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingBelow"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "버즈앤비 버드 #30",
+    "description": "This is NFT collection made by Bzznbyd",
+    "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/30.png",
+    "dna": "069ecd11f0b34a6dcfa840ac09f6f791d3cc2d0f",
+    "edition": 30,
+    "date": 1653621055902,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Purple"
+      },
+      {
+        "trait_type": "Body",
+        "value": "LigthPink"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Face"
+      },
+      {
+        "trait_type": "Leg",
+        "value": "Legs"
+      },
+      {
+        "trait_type": "Wing",
+        "value": "WingAbove"
+      },
+      {
+        "trait_type": "Eyebrow",
+        "value": "Sad"
       }
     ],
     "compiler": "HashLips Art Engine"

@@ -100,6 +100,10 @@ export default function WalletPage() {
       .catch(err => console.error(err));
   };
 
+  const onClickNavToBzznbydBird = () => {
+    navigate('/bzznbydbird');
+  };
+
   const onClickNavToMintPage = () => {
     if (mintInfo.length > 0) {
       navigate('/mynft');
@@ -127,7 +131,8 @@ export default function WalletPage() {
             <div className='wallet-options'>
               <p onClick={onClickCheckBalance}>내 KLAY 확인하기</p>
               <p onClick={onClickModalOpen}>KLAY 전송하기</p>
-              <p onClick={onClickNavToMintPage}>나만의 Bzznbyd Bird NFT</p>
+              <p onClick={onClickNavToBzznbydBird}>버즈앤비 NFT 보러가기</p>
+              <p onClick={onClickNavToMintPage}>나만의 NFT</p>
             </div>
           </div>
         </div>

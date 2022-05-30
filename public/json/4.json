@@ -1,30 +1,34 @@
 {
-  "name": "Bzznbyd Bird #4",
+  "name": "버즈앤비 버드 #4",
   "description": "This is NFT collection made by Bzznbyd",
-  "image": "ipfs://QmXtEsuG1eY9mvDrnXu5GQLQLsbc78XczVcBAPB8ywGmun/4.png",
-  "dna": "8f2d26d4b832d7419f0248df3f52afdf1a091be5",
+  "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/4.png",
+  "dna": "1caeaddd8230bb12b0c4295343a65b1f5e212625",
   "edition": 4,
-  "date": 1652936186518,
+  "date": 1653621053887,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "blue"
+      "value": "Red"
     },
     {
       "trait_type": "Body",
-      "value": "light_pink"
+      "value": "LightYellow"
     },
     {
       "trait_type": "Face",
-      "value": "normal_face"
+      "value": "Face"
     },
     {
-      "trait_type": "Legs",
-      "value": "normal_legs"
+      "trait_type": "Leg",
+      "value": "Legs"
     },
     {
-      "trait_type": "Wings",
-      "value": "wing_below"
+      "trait_type": "Wing",
+      "value": "WingAbove"
+    },
+    {
+      "trait_type": "Eyebrow",
+      "value": "Angry"
     }
   ],
   "compiler": "HashLips Art Engine"

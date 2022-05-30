@@ -1,0 +1,35 @@
+{
+  "name": "버즈앤비 버드 #28",
+  "description": "This is NFT collection made by Bzznbyd",
+  "image": "ipfs://Qmakn7DAEctYzbraxz5kYa3UQupni6SviNeYU9fkQRXkhy/28.png",
+  "dna": "542f9d6807117b17c61cf7150a32def31460fee9",
+  "edition": 28,
+  "date": 1653621055750,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Body",
+      "value": "LightYellow"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Face"
+    },
+    {
+      "trait_type": "Leg",
+      "value": "Legs"
+    },
+    {
+      "trait_type": "Wing",
+      "value": "WingAbove"
+    },
+    {
+      "trait_type": "Eyebrow",
+      "value": "Angry"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}
