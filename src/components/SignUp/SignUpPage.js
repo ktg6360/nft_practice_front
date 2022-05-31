@@ -65,13 +65,19 @@ export default function SignUpPage() {
     navigate('/login');
   };
 
+  const onKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      onClickSignUp();
+    }
+  };
+
   return (
     <div className='signup-page'>
       <div className='form'>
         <form className='signup-form'>
           <input className='id' name='id' type='text' placeholder='아이디' onChange={onChangeHandler} />
           <input className='name' name='password' type='password' placeholder='비밀번호' onChange={onChangeHandler} />
-          <input className='address' name='confirmPassword' type='password' placeholder='비밀번호 확인' onChange={onChangeHandler} />
+          <input className='address' name='confirmPassword' type='password' placeholder='비밀번호 확인' onChange={onChangeHandler} onKeyDown={onKeyDown} />
           <p className='signup-button' onClick={onClickSignUp}>Sign Up</p>
         </form>
         <div className='check-register'>
