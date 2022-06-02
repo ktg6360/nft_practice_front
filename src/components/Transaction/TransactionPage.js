@@ -72,10 +72,9 @@ export default function TransactionPage() {
       <div className='transaction-container'>
         <p className='transaction-title'>축하합니다! <span>버즈앤비 버드#{userInfo.tokenId}</span> 가 성공적으로 전송되었습니다.</p>
         <div className='transaction-info'>
-          <p>Block Number: {parseInt(userInfo.transactionInfo.blockNumber, 16)}</p>
-          <p>From: {userInfo.transactionInfo.from}</p>
-          <p>To: {userInfo.transactionInfo.to}</p>
-          <p>내 지갑 주소: {userInfo.walletInfo.address}</p>
+          <p>BLOCK #: <span>{parseInt(userInfo.transactionInfo.blockNumber, 16)}</span></p>
+          <p>FROM: <span>{userInfo.transactionInfo.from}</span></p>
+          <p>TO: <span>{userInfo.walletInfo.address}</span></p>
         </div>
         <div className='transaction-links'>
           <p onClick={() => window.open(`https://testnets.opensea.io/assets/baobab/0xaaa335d7443349a0416925b2efe52026b8a4a71b/${userInfo.tokenId}`)}>

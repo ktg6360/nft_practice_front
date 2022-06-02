@@ -16,27 +16,59 @@
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-.nft-container p {
-  margin: 15px 0;
+.nft-page-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
-.nft-info {
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 2px solid #f7b2d5;
-  font-size: 14px;
-  text-align: start;
+.img-wrapper {
+  margin: 15px;
+  width: 200px;
+  height: 200px;
 }
 
-.nft-options {
+.img-wrapper img,
+.img-wrapper div {
+  width: 100%;
+  height: 100%;
+}
+
+.upload-wrapper {
+  width: 270px;
+}
+
+.upload {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.upload p {
+  padding: 5px;
+}
+
+.loading {
+  font-size: 12px;
+}
+
+.upload-btn {
+  background: #f7b2d5;
+  color: #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nft-modal-title {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nft-modal-info {
   margin-top: 30px;
 }
 
-.nft-options p {
-  text-align: center;
-  background: #f7b2d5;
-  padding: 10px 15px;
-  color: #FFFFFF;
-  font-size: 14px;
-  cursor: pointer;
+.nft-modal-info p {
+  margin-bottom: 10px;
 }

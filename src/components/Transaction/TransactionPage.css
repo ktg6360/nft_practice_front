@@ -7,7 +7,7 @@
 
 .transaction-container {
   background: #FFFFFF;
-  width: 700px;
+  width: 600px;
   padding: 30px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
@@ -23,9 +23,19 @@
   color: purple;
 }
 
+.transaction-info {
+  padding: 0 30px;
+}
+
 .transaction-info p {
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  color: purple;
+  font-weight: 700;
+}
+
+.transaction-info span {
+  color: black;
 }
 
 .transaction-links {
