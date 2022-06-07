@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './TransactionPage.css';
+import './MyNFTTransactionPage.css';
 import { useSelector } from 'react-redux';
 import axios from 'axios';
 
-export default function TransactionPage() {
+export default function MyNFTTransactionPage() {
   const currentUser = useSelector(state => state.currentUser);
   const userId = currentUser.user;
   const [userInfo, setUserInfo] = useState({
@@ -31,7 +31,7 @@ export default function TransactionPage() {
         if (loginUser.length > 0) {
           if (loginUser[0].wallet) {
             const walletInfo = loginUser[0].wallet;
-            const hashArr = loginUser[0].transactionHash;
+            const hashArr = loginUser[0].transactionHashForMyNFT;
             const tokenId = hashArr[hashArr.length - 1].tokenId;
             const hash = hashArr[hashArr.length - 1].hash;
 
@@ -70,14 +70,13 @@ export default function TransactionPage() {
   return (
     <div className='transaction-page'>
       <div className='transaction-container'>
-        <p className='transaction-title'>축하합니다! <span>버즈앤비 버드#{userInfo.tokenId}</span> 가 성공적으로 전송되었습니다.</p>
+        <p className='transaction-title'>축하합니다! <span>나만의 NFT 만들기</span> 가 성공적으로 완료되었습니다.</p>
         <div className='transaction-info'>
           <p>BLOCK #: <span>{userInfo.transactionInfo.blockNumber && parseInt(userInfo.transactionInfo.blockNumber, 16)}</span></p>
-          <p>FROM: <span>{userInfo.transactionInfo.from}</span></p>
-          <p>TO: <span>{userInfo.walletInfo.address}</span></p>
+          <p>내 지갑 주소: <span>{userInfo.walletInfo.address}</span></p>
         </div>
         <div className='transaction-links'>
-          <p onClick={() => window.open(`https://testnets.opensea.io/assets/baobab/0xaaa335d7443349a0416925b2efe52026b8a4a71b/${userInfo.tokenId}`)}>
+          <p onClick={() => window.open(`https://testnets.opensea.io/collection/bzznbyd-nft-${userId}`)}>
             오픈씨에서 확인하기
           </p>
           <p onClick={() => window.open(`https://baobab.scope.klaytn.com/tx/${userInfo.hash}`)}>
@@ -88,3 +87,4 @@ export default function TransactionPage() {
     </div>
   );
 }
+

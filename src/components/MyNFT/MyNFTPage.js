@@ -1,12 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './MyNFTPage.css';
 import { useSelector } from 'react-redux';
 import axios from 'axios';
 import Modal from 'react-modal';
+import { useNavigate } from 'react-router-dom';
 
 export default function MyNFTPage() {
   const currentUser = useSelector(state => state.currentUser);
   const userId = currentUser.user;
+  const navigate = useNavigate();
   const [progress, setProgress] = useState({
     step1: false,
     step2: false,
@@ -116,7 +118,7 @@ export default function MyNFTPage() {
     setModalIsOpen(true);
   };
 
-  const deployContract = async() => {
+  const deployContract = async () => {
     if (!progress.step1) {
       alert('STEP1 을 먼저 완료해주세요.');
       return;
@@ -149,7 +151,7 @@ export default function MyNFTPage() {
     alert(result.data.msg);
   };
 
-  const mint = async() => {
+  const mint = async () => {
     if (!progress.step1) {
       alert('STEP1 을 먼저 완료해주세요.');
       return;
@@ -173,7 +175,17 @@ export default function MyNFTPage() {
       ipfsHash: ipfsHash
     });
 
-    console.log(result);
+    const transactionHash = result.data.mint.transactionHash;
+
+    console.log(transactionHash);
+
+    const res = await axios.post(`${process.env.REACT_APP_BACKEND_HOST}/addMyNFTHash`, {
+      userId: userId,
+      hash: transactionHash,
+      tokenId: 1
+    });
+
+    console.log(res);
 
     setStep4Loading(false);
 
@@ -185,6 +197,8 @@ export default function MyNFTPage() {
     });
 
     alert(result.data.msg);
+
+    navigate('/mynft-transaction');
   };
 
   return (

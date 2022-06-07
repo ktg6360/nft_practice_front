@@ -8,6 +8,7 @@ import Mint from './pages/Mint/Mint';
 import BzznbydBrid from './pages/BzznbydBird/BzznbydBrid';
 import MyNFT from './pages/MyNFT/MyNFT';
 import Transaction from './pages/Transaction/Transaction';
+import MyNFTTransaction from './pages/MyNFTTransaction/MyNFTTransaction';
 
 export default function Router() {
   return (
@@ -21,6 +22,7 @@ export default function Router() {
         <Route path='/mint' element={<Mint />} />
         <Route path='/mynft' element={<MyNFT />} />
         <Route path='/transaction' element={<Transaction />} />
+        <Route path='/mynft-transaction' element={<MyNFTTransaction />} />
       </Routes>
     </BrowserRouter>
   );
