@@ -1,11 +1,12 @@
 .main-page {
   width: 360px;
-  padding: 15% 0 0 0;
+  padding: 150px 0 0 0;
   margin: auto;
 }
 
 .main-page-btn-wrapper {
   position: relative;
+  top: 10px;
   background: #FFFFFF;
   max-width: 360px;
   padding: 45px;
