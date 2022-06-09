@@ -6,6 +6,7 @@ import axios from 'axios';
 export default function MyNFTTransactionPage() {
   const currentUser = useSelector(state => state.currentUser);
   const userId = currentUser.user;
+  const userIdInLowerCase = userId.toLowerCase();
   const [userInfo, setUserInfo] = useState({
     walletInfo: {},
     tokenId: 0,
@@ -76,7 +77,7 @@ export default function MyNFTTransactionPage() {
           <p>내 지갑 주소: <span>{userInfo.walletInfo.address}</span></p>
         </div>
         <div className='transaction-links'>
-          <p onClick={() => window.open(`https://testnets.opensea.io/collection/bzznbyd-nft-${userId}`)}>
+          <p onClick={() => window.open(`https://testnets.opensea.io/collection/bzznbyd-nft-${userIdInLowerCase}`)}>
             오픈씨에서 확인하기
           </p>
           <p onClick={() => window.open(`https://baobab.scope.klaytn.com/tx/${userInfo.hash}`)}>
