@@ -12,7 +12,6 @@ export default function TransactionPage() {
     hash: "",
     transactionInfo: {}
   });
-  console.log(userInfo);
 
   const getUserInfo = () => {
     const config = {

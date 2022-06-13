@@ -13,7 +13,6 @@ export default function MyNFTTransactionPage() {
     hash: "",
     transactionInfo: {}
   });
-  console.log(userInfo);
 
   const getUserInfo = () => {
     const config = {

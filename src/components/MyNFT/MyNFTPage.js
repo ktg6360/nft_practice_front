@@ -101,8 +101,6 @@ export default function MyNFTPage() {
       fileName: image.image_file.name
     });
 
-    console.log(result);
-
     setStep2Loading(false);
 
     setProgress({
@@ -136,8 +134,6 @@ export default function MyNFTPage() {
     const result = await axios.post(`${process.env.REACT_APP_BACKEND_HOST}/deployMyContract`, {
       userId: userId
     });
-
-    console.log(result);
 
     setStep3Loading(false);
 
@@ -177,15 +173,11 @@ export default function MyNFTPage() {
 
     const transactionHash = result.data.mint.transactionHash;
 
-    console.log(transactionHash);
-
     const res = await axios.post(`${process.env.REACT_APP_BACKEND_HOST}/addMyNFTHash`, {
       userId: userId,
       hash: transactionHash,
       tokenId: 1
     });
-
-    console.log(res);
 
     setStep4Loading(false);
 

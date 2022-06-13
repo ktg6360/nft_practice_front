@@ -10,9 +10,7 @@ export default function BzznbydBirdPage() {
   const userId = currentUser.user;
   const navigate = useNavigate();
   const [tokenList, setTokenList] = useState([]);
-  console.log(tokenList);
   const [selectedTokenId, setSelectedTokenId] = useState(0);
-  console.log(selectedTokenId);
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const getTokenList = () => {

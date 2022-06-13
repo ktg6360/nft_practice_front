@@ -8,9 +8,6 @@ export default function Three() {
 
   useFrame(() => {
     mesh.current.rotation.y += 0.02;
-    // mesh.current.rotation.y += 0.2;
-    // mesh.current.rotation.x += 0.05;
-    // mesh.current.rotation.z += 0.07;
   });
 
   return (
