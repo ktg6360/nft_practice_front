@@ -173,7 +173,7 @@ export default function MyNFTPage() {
 
     const transactionHash = result.data.mint.transactionHash;
 
-    const res = await axios.post(`${process.env.REACT_APP_BACKEND_HOST}/addMyNFTHash`, {
+    await axios.post(`${process.env.REACT_APP_BACKEND_HOST}/addMyNFTHash`, {
       userId: userId,
       hash: transactionHash,
       tokenId: 1
